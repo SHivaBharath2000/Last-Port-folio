@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+/* .projectContainer{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  margin: 200px 0px;
+  align-items: center;
+} */
