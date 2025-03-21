@@ -2,7 +2,7 @@ import React from 'react';
 import { Element } from 'react-scroll';
  import skillingImage from '../../assets/skilling.png';
 import { LinearProgress } from '@mui/material';
-import "./skillcontainer.css"
+import './SkillContainer.css'
 
 const SkillContainer = () => {
   return (

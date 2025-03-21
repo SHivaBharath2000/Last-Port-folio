@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./project.css";
+import "./Project.css";
 
 export default function Project({ img, title, desc, link, front, back }) {
   const [show, setShow] = useState(false);
