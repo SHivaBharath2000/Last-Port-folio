@@ -13,8 +13,10 @@
     padding-bottom: 20px;
   }
   .projectContainer__projects{
-    display: flex;
-    width: 60vw;
-    margin-top:50px;
-    flex-wrap: wrap;
+    display: flex
+    ;
+        width: 80vw;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        margin-right: -339px;
   }

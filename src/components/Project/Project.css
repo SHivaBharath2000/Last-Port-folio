@@ -8,7 +8,7 @@ img{
 .project{
     margin: 15px;
     width: 350px;
-    height: 170px; 
+    height: 220px;
     transition: transform 100ms ease-in;
  }
 .project:hover{
@@ -29,3 +29,45 @@ img{
 .project__content>p{
     font-size: 15px;
 } 
+/* From Uiverse.io by Jedi-hongbin */ 
+/* From Uiverse.io by barisdogansutcu */ 
+.project__button {
+    padding: 17px 40px;
+    border-radius: 14px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    width: 100px;
+    height: 50px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project__button:hover {
+    background-color:black;
+    color: hsl(0, 0%, 100%);
+    box-shadow: black;
+  }
+  
+  .project__button:active {
+    background-color: black;
+    color: hsl(0, 0%, 100%);
+    box-shadow: black;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
+
+  .fa-brands.fa-github {
+    margin-right: 4px;
+    font-size: 22px;
+  }
+  .project__link{
+      display: flex;
+      justify-content: space-around;
+  }
+  

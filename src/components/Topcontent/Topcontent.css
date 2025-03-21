@@ -5,7 +5,7 @@
 .topcontent__container{
     position:absolute;
     top: 300px;
-    right: 150px;
+    margin-inline: 150px;
 }
 .topcontent__container > p{
     letter-spacing: 1px;
@@ -57,4 +57,21 @@
     background-color: white;
     font-weight: 600;
     
+}
+.image-section{
+   
+  
+    position: absolute;
+    top: 137px;
+    margin-left: 60%;
+}
+ .image-section>img{
+    width: 150%;
+    height: 471px;
+    border-radius: 50px;
+    border: none;
+}
+.topcontent__container>h3{
+    margin-top: 25px;
+    font-weight: 200;
 }
