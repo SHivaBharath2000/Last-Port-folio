@@ -7,7 +7,8 @@ import { Topcontainer } from "./components/Topcontainer";
 import ProjectContainer from "./components/ProjectContainer/ProjectContainer";
 import Experiencecontainer from "./components/Experience Container/Experiencecontainer";
 import Contact from "./components/Contact/Conatct";
-import SkillContainer from "./components/skillcontainer/Skillcontainer";
+import Skillcontainer from "./components/skillcontainer/Skillcontainer";
+
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
       <div>
         <Header/>
         <Topcontainer/>
-        <SkillContainer/>
+        <Skillcontainer/>
         <ProjectContainer/>
         <Experiencecontainer/>
         <Contact/>
